@@ -186,5 +186,17 @@ namespace BalanceChecker {
                 this["EnableLogging"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("60")]
+        public int CheckerInterval {
+            get {
+                return ((int)(this["CheckerInterval"]));
+            }
+            set {
+                this["CheckerInterval"] = value;
+            }
+        }
     }
 }
