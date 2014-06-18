@@ -342,9 +342,13 @@
 		<row><td>BalanceChecker.exe</td><td>{4288DAE7-036A-45E8-AB09-6DD0D9264D7F}</td><td>BALANCECHECKER</td><td>2</td><td/><td>balancechecker.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>DriverSetup.exe</td><td>{77C7CCB3-6BF1-405B-9B8C-20033A3DB6FD}</td><td>HUAWEI_DRIVER</td><td>2</td><td/><td>driversetup.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>DriverUninstall.exe</td><td>{D3C589CA-6CC1-4B3E-8A5A-4B772DB9D6E6}</td><td>HUAWEI_DRIVER</td><td>2</td><td/><td>driveruninstall.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISO19770_LocalTag</td><td>{321BB6A9-1A0E-4426-918B-A6B75FE9D0A5}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISO19770_SystemTag</td><td>{0A6E58CC-FD7C-439B-93EF-B1B1D25F3E6C}</td><td>CommonAppDataFolder</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td>{21D732A1-FD88-4118-B5B0-D6B7853B0443}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td>{1284EE9C-D626-4727-B11B-7894833FC215}</td><td>CFG</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT10</td><td>{04D92CE1-2EFF-4095-9C34-33637CDA7148}</td><td>BALANCECHECKER</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT11</td><td>{73069735-CDF0-4243-A3D7-4117D74E45E2}</td><td>HTML</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT12</td><td>{2FB1C48B-AFA1-4AE9-B464-1A9DAF2C13A2}</td><td>DesktopFolder</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT2</td><td>{A07A96AD-3680-459C-8B06-6CB5566B2820}</td><td>HUAWEI_DRIVER</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT3</td><td>{B4694AF8-0E7D-4E39-A5F4-EB790EA6A164}</td><td>WIN7</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT4</td><td>{7E463EF4-CA6D-4B89-900C-A9F01BB869B8}</td><td>WIN764</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
@@ -353,6 +357,8 @@
 		<row><td>ISX_DEFAULTCOMPONENT7</td><td>{1519FDAA-94F7-4A70-B85D-68E98235EF9D}</td><td>WINXP</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT8</td><td>{5B28B900-F3A7-4938-A3B5-7FF00942B169}</td><td>LANG</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT9</td><td>{B88A7FDA-52F0-45B7-A5BE-C98EFC322908}</td><td>SND</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Interop.NETCONLib.dll</td><td>{BDD3A385-6D89-4F76-9B30-68E280DBEA50}</td><td>BALANCECHECKER</td><td>2</td><td/><td>interop.netconlib.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Interop.NetFwTypeLib.dll</td><td>{47437D45-D9A0-4558-9163-B72BBD936889}</td><td>BALANCECHECKER</td><td>2</td><td/><td>interop.netfwtypelib.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>LocateDevice.dll</td><td>{725653B7-193E-449C-850B-4D2390693583}</td><td>HUAWEI_DRIVER</td><td>2</td><td/><td>locatedevice.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>Mono.Security.dll</td><td>{4CF93C8C-DED5-43D3-B237-3C967D32F38B}</td><td>BALANCECHECKER</td><td>2</td><td/><td>mono.security.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>Npgsql.dll</td><td>{A7FE8255-4653-4C64-9347-998FF47BF157}</td><td>BALANCECHECKER</td><td>2</td><td/><td>npgsql.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
@@ -1079,6 +1085,8 @@
 		<col key="yes" def="s72">Directory_</col>
 		<col key="yes" def="s72">Component_</col>
 		<row><td>CFG</td><td>ISX_DEFAULTCOMPONENT1</td></row>
+		<row><td>CommonAppDataFolder</td><td>ISO19770_SystemTag</td></row>
+		<row><td>INSTALLDIR</td><td>ISO19770_LocalTag</td></row>
 	</table>
 
 	<table name="CustomAction">
@@ -1170,6 +1178,7 @@
 		<row><td>FavoritesFolder</td><td>TARGETDIR</td><td>.:FAVORI~1|Favorites</td><td/><td>0</td><td/></row>
 		<row><td>FontsFolder</td><td>TARGETDIR</td><td>.:Fonts</td><td/><td>0</td><td/></row>
 		<row><td>GlobalAssemblyCache</td><td>TARGETDIR</td><td>.:Global~1|GlobalAssemblyCache</td><td/><td>0</td><td/></row>
+		<row><td>HTML</td><td>BALANCECHECKER</td><td>html</td><td/><td>0</td><td/></row>
 		<row><td>HUAWEI_DRIVER</td><td>INSTALLDIR</td><td>HUAWEI~1|huawei_driver</td><td/><td>0</td><td/></row>
 		<row><td>INSTALLDIR</td><td>MY_PRODUCT_NAME</td><td>.</td><td/><td>0</td><td/></row>
 		<row><td>ISCommonFilesFolder</td><td>CommonFilesFolder</td><td>Instal~1|InstallShield</td><td/><td>0</td><td/></row>
@@ -1179,7 +1188,7 @@
 		<row><td>ITS</td><td>ProgramFilesFolder</td><td>ITS</td><td/><td>0</td><td/></row>
 		<row><td>LANG</td><td>INSTALLDIR</td><td>Lang</td><td/><td>0</td><td/></row>
 		<row><td>LocalAppDataFolder</td><td>TARGETDIR</td><td>.:LocalA~1|LocalAppData</td><td/><td>0</td><td/></row>
-		<row><td>MY_PRODUCT_NAME</td><td>ITS</td><td>SIPGSM~1|SipGSMService</td><td/><td>0</td><td/></row>
+		<row><td>MY_PRODUCT_NAME</td><td>ProgramFilesFolder</td><td>SIPGSM~1|SipGSMService</td><td/><td>0</td><td/></row>
 		<row><td>MyPicturesFolder</td><td>TARGETDIR</td><td>.:MyPict~1|MyPictures</td><td/><td>0</td><td/></row>
 		<row><td>NetHoodFolder</td><td>TARGETDIR</td><td>.:NetHood</td><td/><td>0</td><td/></row>
 		<row><td>PersonalFolder</td><td>TARGETDIR</td><td>.:Personal</td><td/><td>0</td><td/></row>
@@ -1901,9 +1910,13 @@
 		<row><td>AlwaysInstall</td><td>BalanceChecker.exe</td></row>
 		<row><td>AlwaysInstall</td><td>DriverSetup.exe</td></row>
 		<row><td>AlwaysInstall</td><td>DriverUninstall.exe</td></row>
+		<row><td>AlwaysInstall</td><td>ISO19770_LocalTag</td></row>
+		<row><td>AlwaysInstall</td><td>ISO19770_SystemTag</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT1</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT10</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT11</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT12</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT2</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT3</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT4</td></row>
@@ -1912,6 +1925,8 @@
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT7</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT8</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT9</td></row>
+		<row><td>AlwaysInstall</td><td>Interop.NETCONLib.dll</td></row>
+		<row><td>AlwaysInstall</td><td>Interop.NetFwTypeLib.dll</td></row>
 		<row><td>AlwaysInstall</td><td>LocateDevice.dll</td></row>
 		<row><td>AlwaysInstall</td><td>Mono.Security.dll</td></row>
 		<row><td>AlwaysInstall</td><td>Npgsql.dll</td></row>
@@ -1941,6 +1956,8 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
+		<row><td>File</td><td>ISX_DEFAULTCOMPONENT12</td><td>SIPGSM~1.URL|Обновить конфигурацию SipGSM.url</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\bin\Release\Обновить конфигурацию SipGSM.url</td><td>1</td><td/></row>
+		<row><td>File1</td><td>ISX_DEFAULTCOMPONENT10</td><td>SIPGSM~1.URL|Обновить конфигурацию SipGSM.url</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\bin\Release\Обновить конфигурацию SipGSM.url</td><td>1</td><td/></row>
 		<row><td>balancechecker.exe</td><td>BalanceChecker.exe</td><td>BALANC~1.EXE|BalanceChecker.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\bin\Release\BalanceChecker.exe</td><td>1</td><td/></row>
 		<row><td>balancechecker.exe.config</td><td>ISX_DEFAULTCOMPONENT10</td><td>BALANC~1.CON|BalanceChecker.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\bin\Release\BalanceChecker.exe.config</td><td>1</td><td/></row>
 		<row><td>balancechecker.pdb</td><td>ISX_DEFAULTCOMPONENT10</td><td>BALANC~1.PDB|BalanceChecker.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\bin\Release\BalanceChecker.pdb</td><td>1</td><td/></row>
@@ -2023,6 +2040,8 @@
 		<row><td>ewusbnet.sys3</td><td>ISX_DEFAULTCOMPONENT6</td><td>ewusbnet.sys</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\huawei_driver\WinVista64\ewusbnet.sys</td><td>1</td><td/></row>
 		<row><td>ewusbnet.sys4</td><td>ISX_DEFAULTCOMPONENT7</td><td>ewusbnet.sys</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\huawei_driver\WinXp\ewusbnet.sys</td><td>1</td><td/></row>
 		<row><td>install.log</td><td>ISX_DEFAULTCOMPONENT2</td><td>Install.log</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\huawei_driver\Install.log</td><td>1</td><td/></row>
+		<row><td>interop.netconlib.dll</td><td>Interop.NETCONLib.dll</td><td>INTERO~1.DLL|Interop.NETCONLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\bin\Release\Interop.NETCONLib.dll</td><td>1</td><td/></row>
+		<row><td>interop.netfwtypelib.dll</td><td>Interop.NetFwTypeLib.dll</td><td>INTERO~1.DLL|Interop.NetFwTypeLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\bin\Release\Interop.NetFwTypeLib.dll</td><td>1</td><td/></row>
 		<row><td>licinfo.xml</td><td>ISX_DEFAULTCOMPONENT</td><td>licinfo.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\licinfo.xml</td><td>1</td><td/></row>
 		<row><td>locatedevice.dll</td><td>LocateDevice.dll</td><td>LOCATE~1.DLL|LocateDevice.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\huawei_driver\LocateDevice.dll</td><td>1</td><td/></row>
 		<row><td>mono.security.dll</td><td>Mono.Security.dll</td><td>MONOSE~1.DLL|Mono.Security.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\bin\Release\Mono.Security.dll</td><td>1</td><td/></row>
@@ -2036,12 +2055,14 @@
 		<row><td>readme_en_.txt</td><td>ISX_DEFAULTCOMPONENT2</td><td>README~1.TXT|ReadMe(en).txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\huawei_driver\ReadMe(en).txt</td><td>1</td><td/></row>
 		<row><td>release_notes.txt</td><td>ISX_DEFAULTCOMPONENT2</td><td>RELEAS~1.TXT|release notes.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\huawei_driver\release notes.txt</td><td>1</td><td/></row>
 		<row><td>rus.xml</td><td>ISX_DEFAULTCOMPONENT8</td><td>rus.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\Lang\rus.xml</td><td>1</td><td/></row>
+		<row><td>settings.html</td><td>ISX_DEFAULTCOMPONENT11</td><td>SETTIN~1.HTM|settings.html</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\bin\Release\html\settings.html</td><td>1</td><td/></row>
 		<row><td>sipgsmform.exe</td><td>SipGsmForm.exe</td><td>SIPGSM~1.EXE|SipGsmForm.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\SipGsmForm.exe</td><td>1</td><td/></row>
 		<row><td>sipgsmlib.dll</td><td>SipGsmLib.dll</td><td>SIPGSM~1.DLL|SipGsmLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\SipGsmLib.dll</td><td>1</td><td/></row>
 		<row><td>sipgsmservice.exe</td><td>SipGsmService.exe</td><td>SIPGSM~1.EXE|SipGsmService.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\SipGsmService.exe</td><td>1</td><td/></row>
 		<row><td>sipgsmservicelib.dll</td><td>SipGsmServiceLib.dll</td><td>SIPGSM~1.DLL|SipGsmServiceLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\SipGsmServiceLib.dll</td><td>1</td><td/></row>
 		<row><td>snd_city.wav</td><td>ISX_DEFAULTCOMPONENT9</td><td>snd_city.wav</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\snd\snd_city.wav</td><td>1</td><td/></row>
 		<row><td>snd_long.wav</td><td>ISX_DEFAULTCOMPONENT9</td><td>snd_long.wav</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\snd\snd_long.wav</td><td>1</td><td/></row>
+		<row><td>test.png</td><td>ISX_DEFAULTCOMPONENT10</td><td>Test.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\bin\Release\Test.png</td><td>1</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -2188,9 +2209,13 @@
 		<row><td>BalanceChecker.exe</td><td/><td/><td>_E3061C1E_A469_4F51_AAE4_E2EBEB865281_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>DriverSetup.exe</td><td/><td/><td>_0A60EFA0_C79D_4BDD_8F61_11086868E51E_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>DriverUninstall.exe</td><td/><td/><td>_794A73B8_0124_4D40_BD31_EC96153D6066_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISO19770_LocalTag</td><td/><td/><td>_CB60B099_25FD_4F63_81EA_582B031137F6_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISO19770_SystemTag</td><td/><td/><td>_93568D35_424D_470D_8A4B_9DDCDA6687CD_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_EB05D336_F8FE_4723_9C5A_3BA8E23CE737_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td/><td/><td>_18F9A88A_B959_476E_B788_13CFD698DF78_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT10</td><td/><td/><td>_6B5F07B1_33C4_434B_9137_6B3739EB4C51_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT11</td><td/><td/><td>_77CB48D5_4B57_45BF_9E78_7B7335C7913B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT12</td><td/><td/><td>_10174CBC_90D3_477F_9FB9_71728BC847EE_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT2</td><td/><td/><td>_FFF7E5D4_5388_4BAD_A516_AF48253C7180_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT3</td><td/><td/><td>_1C2BDBD8_55A1_4AC6_9776_EAC9811BC6D6_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT4</td><td/><td/><td>_55345B88_578E_41F6_AAD3_2C681B4D4863_FILTER</td><td/><td/><td/><td/></row>
@@ -2199,6 +2224,8 @@
 		<row><td>ISX_DEFAULTCOMPONENT7</td><td/><td/><td>_0280954A_655E_4E8B_9507_B45A98E20D9E_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT8</td><td/><td/><td>_54769F57_FF88_4144_B8E2_F4BCDCBFC7B3_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT9</td><td/><td/><td>_021BA8EA_EAB1_463E_BFC1_B756C643C388_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Interop.NETCONLib.dll</td><td/><td/><td>_71474FB5_75E5_4957_BACF_E236FEEA00DB_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Interop.NetFwTypeLib.dll</td><td/><td/><td>_C4301BFF_0783_4F59_9F53_496EF9D0C214_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>LocateDevice.dll</td><td/><td/><td>_AD9B337F_0CF6_4A02_A001_0E576D3C023B_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>Mono.Security.dll</td><td/><td/><td>_AC5C0C0D_1267_4E9D_A2C6_45A8675DB1A4_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>Npgsql.dll</td><td/><td/><td>_298FF210_193F_48BE_A0A4_5323D525629A_FILTER</td><td/><td/><td/><td/></row>
@@ -2833,7 +2860,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1049</td><td>Название организации</td><td>0</td><td/><td>-1298003502</td></row>
+		<row><td>COMPANY_NAME</td><td>1049</td><td>ITS</td><td>0</td><td/><td>-1163744238</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1049</td><td>Всегда устанавливать</td><td>0</td><td/><td>-1297982261</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1049</td><td>Настройки цвета системы не подходят для работы [ProductName].</td><td>0</td><td/><td>-1297982261</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_OS</td><td>1049</td><td>Операционная система не подходит для работы [ProductName].</td><td>0</td><td/><td>-1297982261</td></row>
@@ -3934,7 +3961,6 @@
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1049</td><td>Объем памяти ОЗУ не достаточен для работы [ProductName].</td><td>0</td><td/><td>-1297982261</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1049</td><td>Разрешение экрана не подходит для работы [ProductName].</td><td>0</td><td/><td>-1297982261</td></row>
 		<row><td>ID_STRING1</td><td>1049</td><td/><td>0</td><td/><td>-1297982261</td></row>
-		<row><td>ID_STRING2</td><td>1049</td><td>http://www.Названиеорганизации.com</td><td>0</td><td/><td>-1298003502</td></row>
 		<row><td>ID_STRING3</td><td>1049</td><td>ITS</td><td>0</td><td/><td>-1298001294</td></row>
 		<row><td>ID_STRING4</td><td>1033</td><td>NEWSHO~1|NewShortcut1</td><td>0</td><td/><td>-1297998325</td></row>
 		<row><td>ID_STRING4</td><td>1049</td><td>SipGSM</td><td>0</td><td/><td>-1297988085</td></row>
@@ -3946,6 +3972,8 @@
 	<table name="ISSwidtagProperty">
 		<col key="yes" def="s72">Name</col>
 		<col def="s0">Value</col>
+		<row><td>TagCreatorName</td><td>ITS</td></row>
+		<row><td>TagCreatorRegid</td><td>regid.1995-09.com.example</td></row>
 		<row><td>UniqueId</td><td>CF9034DB-64BC-4C12-98EF-B124C98C93CE</td></row>
 	</table>
 
@@ -4181,7 +4209,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{EBEDFED9-1A58-4CE6-A43F-E76FFFFD28A2}</td></row>
 		<row><td>ISUSSignature</td><td>{EBC6EA7E-5918-4D03-84FD-B606E394638A}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewISToday,viewProject,viewAppFiles,viewObjects,viewShortcuts,viewServices,viewComponentServices,viewVRoots,viewEnvironmentVariables,viewFileExtensions,viewIniFiles,viewRegistry,viewUI,viewTextMessages</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewISToday,viewProject,viewAppFiles,viewObjects,viewShortcuts,viewServices,viewComponentServices,viewVRoots,viewEnvironmentVariables,viewFileExtensions,viewIniFiles,viewRegistry,viewUI,viewTextMessages,viewFeatureFiles</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
@@ -4194,6 +4222,8 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>SccEnabled</td><td>0</td></row>
 		<row><td>SccPath</td><td/></row>
 		<row><td>SchemaVersion</td><td>774</td></row>
+		<row><td>SwidtagLocalComponent</td><td>ISO19770_LocalTag</td></row>
+		<row><td>SwidtagSystemComponent</td><td>ISO19770_SystemTag</td></row>
 		<row><td>Type</td><td>MSIE</td></row>
 	</table>
 
@@ -4488,7 +4518,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ARPINSTALLLOCATION</td><td/><td/></row>
 		<row><td>ARPPRODUCTICON</td><td>ARPPRODUCTICON.exe</td><td/></row>
 		<row><td>ARPSIZE</td><td/><td/></row>
-		<row><td>ARPURLINFOABOUT</td><td>##ID_STRING2##</td><td/></row>
 		<row><td>AgreeToLicense</td><td>No</td><td/></row>
 		<row><td>ApplicationUsers</td><td>AllUsers</td><td/></row>
 		<row><td>DWUSINTERVAL</td><td>30</td><td/></row>
@@ -4554,7 +4583,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PROGMSG_IIS_ROLLBACKVROOTS</td><td>##IDS_PROGMSG_IIS_ROLLBACKVROOTS##</td><td/></row>
 		<row><td>PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS</td><td>##IDS_PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS##</td><td/></row>
 		<row><td>ProductCode</td><td>{170F01F0-5A86-4922-9B56-5AC776E6044A}</td><td/></row>
-		<row><td>ProductName</td><td>Setup</td><td/></row>
+		<row><td>ProductName</td><td>BalanceChecker</td><td/></row>
 		<row><td>ProductVersion</td><td>1.00.0000</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
 		<row><td>ProgressType1</td><td>Installing</td><td/></row>

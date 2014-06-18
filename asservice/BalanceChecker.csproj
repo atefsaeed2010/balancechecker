@@ -48,6 +48,7 @@
     <Reference Include="System" />
     <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Management" />
     <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Windows.Forms" />
@@ -58,6 +59,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Firewall.cs" />
     <Compile Include="Log.cs" />
     <Compile Include="Modem.cs" />
     <Compile Include="PduBitPacker.cs" />
@@ -83,6 +85,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="SimpleHttpServer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -139,8 +142,16 @@
     <None Include="SipGsm\huawei_driver\WinXp\ewusbmdm.sys" />
     <None Include="SipGsm\huawei_driver\WinXp\ewusbnet.cat" />
     <None Include="SipGsm\huawei_driver\WinXp\ewusbnet.sys" />
+    <None Include="Обновить конфигурацию SipGSM.url">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FirewallAPI.dll" />
+    <Content Include="hnetcfg.dll" />
+    <Content Include="html\settings.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="icon.ico" />
     <Content Include="Setup\Setup\Express\Interm\_IsIcoRes.Exe" />
     <Content Include="Setup\Setup\Express\SingleImage\DiskImages\DISK1\ISSetupPrerequisites\{2A0CC195-B3AF-4B63-8F5C-1F88A7E28ADF}\wic_x86_enu.exe" />
@@ -212,6 +223,26 @@
   <ItemGroup>
     <Folder Include="Setup\Setup\Express\SingleImage\TestTools\" />
     <Folder Include="SipGsm\Cfg\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="NETCONLib">
+      <Guid>{43E734CA-043D-4A70-9A2C-A8F254063D91}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="NetFwTypeLib">
+      <Guid>{58FBCF7C-E7A9-467C-80B3-FC65E8FCCA08}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
