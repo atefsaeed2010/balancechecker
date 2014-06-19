@@ -202,6 +202,7 @@
     <Content Include="SipGsm\huawei_driver\WinXp\ewusbdev.inf" />
     <Content Include="SipGsm\Lang\eng.xml" />
     <Content Include="SipGsm\Lang\rus.xml" />
+    <Content Include="SipGsm\licinfo.xml" />
     <Content Include="SipGsm\msvcp100.dll" />
     <Content Include="SipGsm\msvcr100.dll" />
     <Content Include="SipGsm\oktell.HAL.dll" />

@@ -163,7 +163,7 @@ namespace BalanceChecker
 				{
 					p = Environment.GetEnvironmentVariable("ProgramFiles");
 				}
-				return p + @"\SipGSMService\Cfg\";
+				return p + @"\SipGSMGateway\Cfg\";
 			}
 		}
 

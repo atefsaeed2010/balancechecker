@@ -1180,7 +1180,7 @@
 		<row><td>GlobalAssemblyCache</td><td>TARGETDIR</td><td>.:Global~1|GlobalAssemblyCache</td><td/><td>0</td><td/></row>
 		<row><td>HTML</td><td>BALANCECHECKER</td><td>html</td><td/><td>0</td><td/></row>
 		<row><td>HUAWEI_DRIVER</td><td>INSTALLDIR</td><td>HUAWEI~1|huawei_driver</td><td/><td>0</td><td/></row>
-		<row><td>INSTALLDIR</td><td>MY_PRODUCT_NAME</td><td>.</td><td/><td>0</td><td/></row>
+		<row><td>INSTALLDIR</td><td>SIPGSMGATEWAY</td><td>.</td><td/><td>0</td><td/></row>
 		<row><td>ISCommonFilesFolder</td><td>CommonFilesFolder</td><td>Instal~1|InstallShield</td><td/><td>0</td><td/></row>
 		<row><td>ISMyCompanyDir</td><td>ProgramFilesFolder</td><td>MYCOMP~1|My Company Name</td><td/><td>0</td><td/></row>
 		<row><td>ISMyProductDir</td><td>ISMyCompanyDir</td><td>MYPROD~1|My Product Name</td><td/><td>0</td><td/></row>
@@ -1198,6 +1198,7 @@
 		<row><td>ProgramFilesFolder</td><td>TARGETDIR</td><td>.:PROGRA~1|program files</td><td/><td>0</td><td/></row>
 		<row><td>ProgramMenuFolder</td><td>TARGETDIR</td><td>.:Programs</td><td/><td>3</td><td/></row>
 		<row><td>RecentFolder</td><td>TARGETDIR</td><td>.:Recent</td><td/><td>0</td><td/></row>
+		<row><td>SIPGSMGATEWAY</td><td>ProgramFilesFolder</td><td>SIPGSM~1|SipGsmGateway</td><td/><td>0</td><td/></row>
 		<row><td>SND</td><td>INSTALLDIR</td><td>snd</td><td/><td>0</td><td/></row>
 		<row><td>SendToFolder</td><td>TARGETDIR</td><td>.:SendTo</td><td/><td>3</td><td/></row>
 		<row><td>StartMenuFolder</td><td>TARGETDIR</td><td>.:STARTM~1|Start Menu</td><td/><td>3</td><td/></row>
@@ -3961,11 +3962,13 @@
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1049</td><td>Объем памяти ОЗУ не достаточен для работы [ProductName].</td><td>0</td><td/><td>-1297982261</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1049</td><td>Разрешение экрана не подходит для работы [ProductName].</td><td>0</td><td/><td>-1297982261</td></row>
 		<row><td>ID_STRING1</td><td>1049</td><td/><td>0</td><td/><td>-1297982261</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td/><td>0</td><td/><td>-1692219543</td></row>
+		<row><td>ID_STRING2</td><td>1049</td><td/><td>0</td><td/><td>-1692219543</td></row>
 		<row><td>ID_STRING3</td><td>1049</td><td>ITS</td><td>0</td><td/><td>-1298001294</td></row>
 		<row><td>ID_STRING4</td><td>1033</td><td>NEWSHO~1|NewShortcut1</td><td>0</td><td/><td>-1297998325</td></row>
 		<row><td>ID_STRING4</td><td>1049</td><td>SipGSM</td><td>0</td><td/><td>-1297988085</td></row>
 		<row><td>ID_STRING5</td><td>1033</td><td>SipGSMService</td><td>0</td><td/><td>-1297967573</td></row>
-		<row><td>ID_STRING5</td><td>1049</td><td>SipGSMService</td><td>0</td><td/><td>-1297967573</td></row>
+		<row><td>ID_STRING5</td><td>1049</td><td/><td>0</td><td/><td>-1826459310</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1049</td><td>Данный компонент не будет удален.</td><td>0</td><td/><td>-1297982261</td></row>
 	</table>
 
@@ -4516,6 +4519,8 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<row><td>ALLUSERS</td><td>1</td><td/></row>
 		<row><td>ARPINSTALLLOCATION</td><td/><td/></row>
+		<row><td>ARPNOMODIFY</td><td>1</td><td/></row>
+		<row><td>ARPNOREPAIR</td><td>1</td><td/></row>
 		<row><td>ARPPRODUCTICON</td><td>ARPPRODUCTICON.exe</td><td/></row>
 		<row><td>ARPSIZE</td><td/><td/></row>
 		<row><td>AgreeToLicense</td><td>No</td><td/></row>
@@ -4725,8 +4730,8 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">Arguments</col>
 		<col def="s72">Component_</col>
 		<col def="L255">Description</col>
-		<row><td>NewServiceInstall1</td><td>SipGsmService</td><td>##ID_STRING5##</td><td>16</td><td>2</td><td>1</td><td/><td/><td/><td/><td/><td>SipGsmService.exe</td><td/></row>
-		<row><td>NewServiceInstall2</td><td>BalanceChecker</td><td/><td>16</td><td>2</td><td>1</td><td/><td/><td/><td/><td/><td>BalanceChecker.exe</td><td/></row>
+		<row><td>NewServiceInstall1</td><td>SipGsmService</td><td>##ID_STRING5##</td><td>32</td><td>2</td><td>1</td><td/><td/><td/><td/><td>start=boot</td><td>SipGsmService.exe</td><td/></row>
+		<row><td>NewServiceInstall2</td><td>BalanceChecker</td><td/><td>32</td><td>2</td><td>1</td><td/><td/><td/><td/><td/><td>BalanceChecker.exe</td><td/></row>
 	</table>
 
 	<table name="Shortcut">
