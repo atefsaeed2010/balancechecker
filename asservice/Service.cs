@@ -174,13 +174,23 @@ namespace BalanceChecker
 			Log.Write("Обновление списка модемов");
 			modemList = null;
 			modemList = Modem.GetList();
+			int i = 1;
+
 			Log.Write("Найдено модемов :: " + modemList.Count);
+			p.outputStream.WriteLine(string.Format("<h5>Найдено модемов :: {0}</h5>", i));
+			foreach (var item in modemList)
+			{
+				Log.Write(string.Format("{0} ::  {1}", i, item.IMEI));
+				p.outputStream.WriteLine(string.Format("<h5>{0} ::  {1}</h5>", i, item.IMEI));
+				i++;
+			}
+			
 
 
 			DeleteConfigFiles();
 
 			Thread.Sleep(5000);
-			int i = 1;
+			i = 1;
 			foreach (UsbDevice item in modemList)
 			{
 				Log.Write("Чтение настроек сервера");

@@ -2444,6 +2444,8 @@
 		<col key="yes" def="s72">ISProductConfiguration_</col>
 		<col key="yes" def="s72">Property</col>
 		<col def="L255">Value</col>
+		<row><td>Express</td><td>MSIPackageFileName</td><td>BalanceCheckerSetup</td></row>
+		<row><td>Express</td><td>SetupFileName</td><td>BalanceCheckerSetup</td></row>
 	</table>
 
 	<table name="ISRelease">
@@ -4069,7 +4071,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{E9DC62D5-5A44-47E8-A443-2F4A44400762}</td></row>
 		<row><td>ISUSSignature</td><td>{6D1DBA15-6E3B-49E5-88BE-7E5B5BE03CBC}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewProject,viewAppFiles,viewServices,viewUI</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewProject,viewAppFiles,viewServices,viewUI,viewRelease</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>

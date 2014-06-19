@@ -2063,7 +2063,6 @@
 		<row><td>sipgsmservicelib.dll</td><td>SipGsmServiceLib.dll</td><td>SIPGSM~1.DLL|SipGsmServiceLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\SipGsm\SipGsmServiceLib.dll</td><td>1</td><td/></row>
 		<row><td>snd_city.wav</td><td>ISX_DEFAULTCOMPONENT9</td><td>snd_city.wav</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\snd\snd_city.wav</td><td>1</td><td/></row>
 		<row><td>snd_long.wav</td><td>ISX_DEFAULTCOMPONENT9</td><td>snd_long.wav</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\snd\snd_long.wav</td><td>1</td><td/></row>
-		<row><td>test.png</td><td>ISX_DEFAULTCOMPONENT10</td><td>Test.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\bin\Release\Test.png</td><td>1</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -2578,6 +2577,8 @@
 		<col key="yes" def="s72">ISProductConfiguration_</col>
 		<col key="yes" def="s72">Property</col>
 		<col def="L255">Value</col>
+		<row><td>Express</td><td>MSIPackageFileName</td><td>BalanceChecker&amp;SipGsmSetup</td></row>
+		<row><td>Express</td><td>SetupFileName</td><td>BalanceChecker&amp;SipGsmSetup</td></row>
 	</table>
 
 	<table name="ISRelease">
@@ -2827,7 +2828,6 @@
 		<col def="I2">Order</col>
 		<col def="I2">ISSetupLocation</col>
 		<col def="S255">ISReleaseFlags</col>
-		<row><td>_F934E98A_8D06_4EEE_BDEB_DD3ABBB858D3_</td><td>Microsoft .NET Framework 4.0 Client (Web Download).prq</td><td/><td/><td/></row>
 	</table>
 
 	<table name="ISSetupType">
@@ -3969,6 +3969,8 @@
 		<row><td>ID_STRING4</td><td>1049</td><td>SipGSM</td><td>0</td><td/><td>-1297988085</td></row>
 		<row><td>ID_STRING5</td><td>1033</td><td>SipGSMService</td><td>0</td><td/><td>-1297967573</td></row>
 		<row><td>ID_STRING5</td><td>1049</td><td/><td>0</td><td/><td>-1826459310</td></row>
+		<row><td>ID_STRING6</td><td>1033</td><td>NEWSHO~1|NewShortcut2</td><td>0</td><td/><td>-1692216562</td></row>
+		<row><td>ID_STRING6</td><td>1049</td><td>SipGsm</td><td>0</td><td/><td>-1692261586</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1049</td><td>Данный компонент не будет удален.</td><td>0</td><td/><td>-1297982261</td></row>
 	</table>
 
@@ -4080,6 +4082,7 @@
 		<col def="I2">ISIconIndex</col>
 		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\setupicon.ico</td><td>0</td></row>
 		<row><td>NewShortcut1_AA09FECCE06D4820A572F41C54381E99.exe</td><td/><td>C:\Program Files (x86)\SipGsmGateway\SipGsmForm.exe</td><td>0</td></row>
+		<row><td>NewShortcut2_6762BBCC05ED4E9980A8A780EB8F9F00.exe</td><td/><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\SipGsm\SipGsmForm.exe</td><td>0</td></row>
 	</table>
 
 	<table name="IniFile">
@@ -4212,7 +4215,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{EBEDFED9-1A58-4CE6-A43F-E76FFFFD28A2}</td></row>
 		<row><td>ISUSSignature</td><td>{EBC6EA7E-5918-4D03-84FD-B606E394638A}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewISToday,viewProject,viewAppFiles,viewObjects,viewShortcuts,viewServices,viewComponentServices,viewVRoots,viewEnvironmentVariables,viewFileExtensions,viewIniFiles,viewRegistry,viewUI,viewTextMessages,viewFeatureFiles</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewISToday,viewProject,viewAppFiles,viewObjects,viewShortcuts,viewServices,viewComponentServices,viewVRoots,viewEnvironmentVariables,viewFileExtensions,viewIniFiles,viewRegistry,viewUI,viewTextMessages,viewFeatureFiles,viewRelease</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
@@ -4588,7 +4591,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PROGMSG_IIS_ROLLBACKVROOTS</td><td>##IDS_PROGMSG_IIS_ROLLBACKVROOTS##</td><td/></row>
 		<row><td>PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS</td><td>##IDS_PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS##</td><td/></row>
 		<row><td>ProductCode</td><td>{170F01F0-5A86-4922-9B56-5AC776E6044A}</td><td/></row>
-		<row><td>ProductName</td><td>BalanceChecker</td><td/></row>
+		<row><td>ProductName</td><td>BalanceChecker with SipGsm</td><td/></row>
 		<row><td>ProductVersion</td><td>1.00.0000</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
 		<row><td>ProgressType1</td><td>Installing</td><td/></row>
@@ -4712,6 +4715,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">Arguments</col>
 		<col def="I2">Wait</col>
 		<col def="s72">Component_</col>
+		<row><td>NewEvent1</td><td>SipGsmService</td><td>129</td><td/><td>0</td><td>SipGsmService.exe</td></row>
 		<row><td>NewEvent2</td><td>BalanceChecker</td><td>129</td><td/><td>0</td><td>BalanceChecker.exe</td></row>
 	</table>
 
@@ -4729,7 +4733,8 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">Arguments</col>
 		<col def="s72">Component_</col>
 		<col def="L255">Description</col>
-		<row><td>NewServiceInstall2</td><td>BalanceChecker</td><td/><td>32</td><td>2</td><td>1</td><td/><td/><td/><td/><td/><td>BalanceChecker.exe</td><td/></row>
+		<row><td>NewServiceInstall1</td><td>SipGsmService</td><td/><td>16</td><td>2</td><td>1</td><td/><td/><td/><td/><td/><td>SipGsmService.exe</td><td/></row>
+		<row><td>NewServiceInstall2</td><td>BalanceChecker</td><td/><td>16</td><td>2</td><td>1</td><td/><td/><td/><td/><td/><td>BalanceChecker.exe</td><td/></row>
 	</table>
 
 	<table name="Shortcut">
@@ -4752,6 +4757,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
+		<row><td>NewShortcut2</td><td>DesktopFolder</td><td>##ID_STRING6##</td><td>SipGsmForm.exe</td><td>[INSTALLDIR]SipGsmForm.exe</td><td/><td/><td/><td>NewShortcut2_6762BBCC05ED4E9980A8A780EB8F9F00.exe</td><td>1</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">
