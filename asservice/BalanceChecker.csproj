@@ -94,6 +94,9 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="SetupXP\SetupXP.isl" />
+    <None Include="SetupXP\SetupXP.isproj" />
+    <None Include="SetupXP\SetupXP\Express\Interm\regid.1995-09.com.example_70380B03-5476-40CC-9EC0-FB28E114C434.swidtag" />
     <None Include="Setup\Setup.isl" />
     <None Include="Setup\Setup.isproj" />
     <None Include="SipGsm\huawei_driver\Install.log" />
@@ -153,6 +156,10 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="icon.ico" />
+    <Content Include="SetupXP\SetupXP\Express\Interm\_IsIcoRes.Exe" />
+    <Content Include="SetupXP\SetupXP\Express\SingleImage\DiskImages\DISK1\setup.exe" />
+    <Content Include="SetupXP\SetupXP\Express\SingleImage\LogFiles\6-19-2014 10-41-21.txt" />
+    <Content Include="SetupXP\SetupXP\Express\SingleImage\Reports\6-19-2014 10-41-26.htm" />
     <Content Include="Setup\Setup\Express\Interm\_IsIcoRes.Exe" />
     <Content Include="Setup\Setup\Express\SingleImage\DiskImages\DISK1\ISSetupPrerequisites\{2A0CC195-B3AF-4B63-8F5C-1F88A7E28ADF}\wic_x86_enu.exe" />
     <Content Include="Setup\Setup\Express\SingleImage\DiskImages\DISK1\ISSetupPrerequisites\{3A0C717D-34C1-44e4-BCFA-CA64ABD99DEF}\dotNetFx40_Client_setup.exe" />
@@ -222,6 +229,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="SetupXP\SetupXP\Express\SingleImage\TestTools\" />
     <Folder Include="Setup\Setup\Express\SingleImage\TestTools\" />
     <Folder Include="SipGsm\Cfg\" />
   </ItemGroup>

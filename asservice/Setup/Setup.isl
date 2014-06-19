@@ -362,18 +362,18 @@
 		<row><td>LocateDevice.dll</td><td>{725653B7-193E-449C-850B-4D2390693583}</td><td>HUAWEI_DRIVER</td><td>2</td><td/><td>locatedevice.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>Mono.Security.dll</td><td>{4CF93C8C-DED5-43D3-B237-3C967D32F38B}</td><td>BALANCECHECKER</td><td>2</td><td/><td>mono.security.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>Npgsql.dll</td><td>{A7FE8255-4653-4C64-9347-998FF47BF157}</td><td>BALANCECHECKER</td><td>2</td><td/><td>npgsql.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SipGsmForm.exe</td><td>{32313ED9-5562-492B-A621-DF8043F0866D}</td><td>INSTALLDIR</td><td>2</td><td/><td>sipgsmform.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SipGsmLib.dll</td><td>{E032BBD4-2EB0-4885-B1B8-81DAC010C833}</td><td>INSTALLDIR</td><td>2</td><td/><td>sipgsmlib.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SipGsmService.exe</td><td>{C401CF89-C9BB-479C-B96B-00F39D6C246D}</td><td>INSTALLDIR</td><td>2</td><td/><td>sipgsmservice.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SipGsmServiceLib.dll</td><td>{BED2C302-2D26-4E6E-9C50-5BF4F9C45D8B}</td><td>INSTALLDIR</td><td>2</td><td/><td>sipgsmservicelib.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>SipGsmForm.exe</td><td>{8FEBFA0B-CB04-4012-A940-7EDC5D7CC9BA}</td><td>INSTALLDIR</td><td>2</td><td/><td>sipgsmform.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>SipGsmLib.dll</td><td>{CB323C9B-FA14-4AB8-A5CF-09B88784CE0F}</td><td>INSTALLDIR</td><td>2</td><td/><td>sipgsmlib.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>SipGsmService.exe</td><td>{945F27AB-2991-48DB-A68B-2E93A52C2651}</td><td>INSTALLDIR</td><td>2</td><td/><td>sipgsmservice.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>SipGsmServiceLib.dll</td><td>{B55809A8-A1A5-4CF8-85E7-8C54FBD56CB5}</td><td>INSTALLDIR</td><td>2</td><td/><td>sipgsmservicelib.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>devsetup.dll</td><td>{B77144A7-5547-4FCE-B182-D2BE523BE4DE}</td><td>HUAWEI_DRIVER</td><td>2</td><td/><td>devsetup.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>devsetup.exe</td><td>{BCA561F6-E0EB-4DDD-90AE-FA29A41BB87C}</td><td>HUAWEI_DRIVER</td><td>2</td><td/><td>devsetup.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>devsetup2k.exe</td><td>{4EAF328C-1975-48CE-897B-89F01422BB61}</td><td>HUAWEI_DRIVER</td><td>2</td><td/><td>devsetup2k.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>devsetup32.exe</td><td>{6AC14E6C-CC13-4C48-9D0D-7AC2CAB412DB}</td><td>HUAWEI_DRIVER</td><td>2</td><td/><td>devsetup32.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>devsetup64.exe</td><td>{1084C7DB-ED87-4B00-85AA-FFD09EC083DE}</td><td>HUAWEI_DRIVER</td><td>2</td><td/><td>devsetup64.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>msvcp100.dll</td><td>{DBE7CF58-64DD-414D-98D4-B60A9E9DA5AE}</td><td>INSTALLDIR</td><td>2</td><td/><td>msvcp100.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>msvcr100.dll</td><td>{BE1E5D67-64E9-4BCD-B359-A5415CA975F0}</td><td>INSTALLDIR</td><td>2</td><td/><td>msvcr100.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>oktell.HAL.dll</td><td>{DF20C3BA-1F97-47D4-85CE-2A11DAF926C5}</td><td>INSTALLDIR</td><td>2</td><td/><td>oktell.hal.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>msvcp100.dll</td><td>{DFDE127C-573A-4D7C-A3BE-54B9A94A740E}</td><td>INSTALLDIR</td><td>2</td><td/><td>msvcp100.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>msvcr100.dll</td><td>{77D2E3FC-88D9-4AC2-B866-B9964FE87518}</td><td>INSTALLDIR</td><td>2</td><td/><td>msvcr100.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>oktell.HAL.dll</td><td>{FE4B5C13-0FEB-4674-B8EB-F8BD409F9E47}</td><td>INSTALLDIR</td><td>2</td><td/><td>oktell.hal.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -2043,24 +2043,24 @@
 		<row><td>install.log</td><td>ISX_DEFAULTCOMPONENT2</td><td>Install.log</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\huawei_driver\Install.log</td><td>1</td><td/></row>
 		<row><td>interop.netconlib.dll</td><td>Interop.NETCONLib.dll</td><td>INTERO~1.DLL|Interop.NETCONLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\bin\Release\Interop.NETCONLib.dll</td><td>1</td><td/></row>
 		<row><td>interop.netfwtypelib.dll</td><td>Interop.NetFwTypeLib.dll</td><td>INTERO~1.DLL|Interop.NetFwTypeLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\bin\Release\Interop.NetFwTypeLib.dll</td><td>1</td><td/></row>
-		<row><td>licinfo.xml</td><td>ISX_DEFAULTCOMPONENT</td><td>licinfo.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\licinfo.xml</td><td>1</td><td/></row>
+		<row><td>licinfo.xml</td><td>ISX_DEFAULTCOMPONENT</td><td>licinfo.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\SipGsm\licinfo.xml</td><td>1</td><td/></row>
 		<row><td>locatedevice.dll</td><td>LocateDevice.dll</td><td>LOCATE~1.DLL|LocateDevice.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\huawei_driver\LocateDevice.dll</td><td>1</td><td/></row>
 		<row><td>mono.security.dll</td><td>Mono.Security.dll</td><td>MONOSE~1.DLL|Mono.Security.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\bin\Release\Mono.Security.dll</td><td>1</td><td/></row>
-		<row><td>msvcp100.dll</td><td>msvcp100.dll</td><td>msvcp100.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\msvcp100.dll</td><td>1</td><td/></row>
-		<row><td>msvcr100.dll</td><td>msvcr100.dll</td><td>msvcr100.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\msvcr100.dll</td><td>1</td><td/></row>
+		<row><td>msvcp100.dll</td><td>msvcp100.dll</td><td>msvcp100.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\SipGsm\msvcp100.dll</td><td>1</td><td/></row>
+		<row><td>msvcr100.dll</td><td>msvcr100.dll</td><td>msvcr100.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\SipGsm\msvcr100.dll</td><td>1</td><td/></row>
 		<row><td>npgsql.dll</td><td>Npgsql.dll</td><td>Npgsql.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\bin\Release\Npgsql.dll</td><td>1</td><td/></row>
 		<row><td>npgsql.xml</td><td>ISX_DEFAULTCOMPONENT10</td><td>Npgsql.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\bin\Release\Npgsql.xml</td><td>1</td><td/></row>
-		<row><td>oktell.hal.dll</td><td>oktell.HAL.dll</td><td>OKTELL~1.DLL|oktell.HAL.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\oktell.HAL.dll</td><td>1</td><td/></row>
-		<row><td>oktell.lic</td><td>ISX_DEFAULTCOMPONENT</td><td>oktell.lic</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\oktell.lic</td><td>1</td><td/></row>
+		<row><td>oktell.hal.dll</td><td>oktell.HAL.dll</td><td>OKTELL~1.DLL|oktell.HAL.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\SipGsm\oktell.HAL.dll</td><td>1</td><td/></row>
+		<row><td>oktell.lic</td><td>ISX_DEFAULTCOMPONENT</td><td>oktell.lic</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\SipGsm\oktell.lic</td><td>1</td><td/></row>
 		<row><td>readme_ch_.txt</td><td>ISX_DEFAULTCOMPONENT2</td><td>README~1.TXT|ReadMe(ch).txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\huawei_driver\ReadMe(ch).txt</td><td>1</td><td/></row>
 		<row><td>readme_en_.txt</td><td>ISX_DEFAULTCOMPONENT2</td><td>README~1.TXT|ReadMe(en).txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\huawei_driver\ReadMe(en).txt</td><td>1</td><td/></row>
 		<row><td>release_notes.txt</td><td>ISX_DEFAULTCOMPONENT2</td><td>RELEAS~1.TXT|release notes.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\huawei_driver\release notes.txt</td><td>1</td><td/></row>
 		<row><td>rus.xml</td><td>ISX_DEFAULTCOMPONENT8</td><td>rus.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\Lang\rus.xml</td><td>1</td><td/></row>
 		<row><td>settings.html</td><td>ISX_DEFAULTCOMPONENT11</td><td>SETTIN~1.HTM|settings.html</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\bin\Release\html\settings.html</td><td>1</td><td/></row>
-		<row><td>sipgsmform.exe</td><td>SipGsmForm.exe</td><td>SIPGSM~1.EXE|SipGsmForm.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\SipGsmForm.exe</td><td>1</td><td/></row>
-		<row><td>sipgsmlib.dll</td><td>SipGsmLib.dll</td><td>SIPGSM~1.DLL|SipGsmLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\SipGsmLib.dll</td><td>1</td><td/></row>
-		<row><td>sipgsmservice.exe</td><td>SipGsmService.exe</td><td>SIPGSM~1.EXE|SipGsmService.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\SipGsmService.exe</td><td>1</td><td/></row>
-		<row><td>sipgsmservicelib.dll</td><td>SipGsmServiceLib.dll</td><td>SIPGSM~1.DLL|SipGsmServiceLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\SipGsmServiceLib.dll</td><td>1</td><td/></row>
+		<row><td>sipgsmform.exe</td><td>SipGsmForm.exe</td><td>SIPGSM~1.EXE|SipGsmForm.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\SipGsm\SipGsmForm.exe</td><td>1</td><td/></row>
+		<row><td>sipgsmlib.dll</td><td>SipGsmLib.dll</td><td>SIPGSM~1.DLL|SipGsmLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\SipGsm\SipGsmLib.dll</td><td>1</td><td/></row>
+		<row><td>sipgsmservice.exe</td><td>SipGsmService.exe</td><td>SIPGSM~1.EXE|SipGsmService.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\SipGsm\SipGsmService.exe</td><td>1</td><td/></row>
+		<row><td>sipgsmservicelib.dll</td><td>SipGsmServiceLib.dll</td><td>SIPGSM~1.DLL|SipGsmServiceLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\SipGsm\SipGsmServiceLib.dll</td><td>1</td><td/></row>
 		<row><td>snd_city.wav</td><td>ISX_DEFAULTCOMPONENT9</td><td>snd_city.wav</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\snd\snd_city.wav</td><td>1</td><td/></row>
 		<row><td>snd_long.wav</td><td>ISX_DEFAULTCOMPONENT9</td><td>snd_long.wav</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Program Files (x86)\SipGsmGateway\snd\snd_long.wav</td><td>1</td><td/></row>
 		<row><td>test.png</td><td>ISX_DEFAULTCOMPONENT10</td><td>Test.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\admin\Documents\Visual Studio 2013\Projects\BalanceChecker\bin\Release\Test.png</td><td>1</td><td/></row>
@@ -2230,18 +2230,18 @@
 		<row><td>LocateDevice.dll</td><td/><td/><td>_AD9B337F_0CF6_4A02_A001_0E576D3C023B_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>Mono.Security.dll</td><td/><td/><td>_AC5C0C0D_1267_4E9D_A2C6_45A8675DB1A4_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>Npgsql.dll</td><td/><td/><td>_298FF210_193F_48BE_A0A4_5323D525629A_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SipGsmForm.exe</td><td/><td/><td>_4EA5387F_092D_467F_B5F9_C73B99A84AB3_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SipGsmLib.dll</td><td/><td/><td>_635C8FA3_3820_4B15_BC15_D60B818B52A6_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SipGsmService.exe</td><td/><td/><td>_1A7F23CC_CFF1_4474_87E7_90CF61B03CE4_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SipGsmServiceLib.dll</td><td/><td/><td>_46358264_3531_4677_9030_EACC077B23AB_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>SipGsmForm.exe</td><td/><td/><td>_4125D219_A9B8_421C_8638_F4CBC26C66C5_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>SipGsmLib.dll</td><td/><td/><td>_94000FAD_7D27_4977_BA61_035CA610E1A4_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>SipGsmService.exe</td><td/><td/><td>_9925EBE1_F94D_405A_8527_795CD3CD6E4B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>SipGsmServiceLib.dll</td><td/><td/><td>_2A2DCE4C_2E42_4F2B_8188_A352553FD334_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>devsetup.dll</td><td/><td/><td>_7706CB56_6042_413C_9C8C_5EAB9858FAAA_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>devsetup.exe</td><td/><td/><td>_394949C1_0A15_4C57_9C74_08B07A863BE3_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>devsetup2k.exe</td><td/><td/><td>_18B4B2AB_6740_41BC_B154_536C5044FBB1_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>devsetup32.exe</td><td/><td/><td>_26FEE79E_DF7E_4206_ADEE_21993F0AD466_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>devsetup64.exe</td><td/><td/><td>_14077E66_5893_47CF_A8BA_EECB36D6AF82_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>msvcp100.dll</td><td/><td/><td>_EDD78DC1_BADE_431B_8662_0D2A51925A15_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>msvcr100.dll</td><td/><td/><td>_0A9FF8CE_6255_4E4F_9AAF_75F3628F9115_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>oktell.HAL.dll</td><td/><td/><td>_FD622161_C9DA_48E6_ADF0_9162AA40E47B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>msvcp100.dll</td><td/><td/><td>_A2AAFA0D_5C86_4DF2_9036_72E5EED18958_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>msvcr100.dll</td><td/><td/><td>_0DC097E2_A4D9_4600_8B29_6CC41A9EB0BC_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>oktell.HAL.dll</td><td/><td/><td>_DB71158A_19BF_4FD3_9599_34876B18C4C7_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="ISCustomActionReference">
@@ -4712,7 +4712,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">Arguments</col>
 		<col def="I2">Wait</col>
 		<col def="s72">Component_</col>
-		<row><td>NewEvent1</td><td>SipGsmService</td><td>129</td><td/><td>0</td><td>SipGsmService.exe</td></row>
 		<row><td>NewEvent2</td><td>BalanceChecker</td><td>129</td><td/><td>0</td><td>BalanceChecker.exe</td></row>
 	</table>
 
@@ -4730,7 +4729,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">Arguments</col>
 		<col def="s72">Component_</col>
 		<col def="L255">Description</col>
-		<row><td>NewServiceInstall1</td><td>SipGsmService</td><td>##ID_STRING5##</td><td>32</td><td>2</td><td>1</td><td/><td/><td/><td/><td>start=boot</td><td>SipGsmService.exe</td><td/></row>
 		<row><td>NewServiceInstall2</td><td>BalanceChecker</td><td/><td>32</td><td>2</td><td>1</td><td/><td/><td/><td/><td/><td>BalanceChecker.exe</td><td/></row>
 	</table>
 
@@ -4754,7 +4752,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
-		<row><td>NewShortcut1</td><td>DesktopFolder</td><td>##ID_STRING4##</td><td>SipGsmForm.exe</td><td>[INSTALLDIR]SipGsmForm.exe</td><td/><td/><td/><td>NewShortcut1_AA09FECCE06D4820A572F41C54381E99.exe</td><td>1</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">
