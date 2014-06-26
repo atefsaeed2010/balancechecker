@@ -17,7 +17,6 @@ namespace BalanceChecker
 	{
 		private List<UsbDevice> modemList;
 		private HttpServer httpServer;
-
 		public Service()
 		{
 			InitializeComponent();
@@ -29,6 +28,9 @@ namespace BalanceChecker
 			modemList = Modem.GetList();
 #endif
 			timer.Interval = Settings.Default.CheckerInterval * 1000;
+
+
+
 		}
 
 		protected override void OnStart(string[] args)
@@ -36,6 +38,7 @@ namespace BalanceChecker
 			// TODO: Добавьте код для запуска службы.
 			modemList = Modem.GetList();
 			StartHTTPServer();
+
 			if (Settings.Default.UseTimer)
 			{
 				timer.Start();
@@ -119,15 +122,35 @@ namespace BalanceChecker
 			{
 				case "/":
 					{
-						p.outputStream.WriteLine("<html><body><h3>Balance Checker</h3>");
+						p.outputStream.WriteLine(@"
+<html>
+<head>" +
+"\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"/>\n" +
+@"</head>
+<body>
+<h3>Balance Checker</h3>
+</body>
+</html>
+");
 					}
 					break;
 				case "/reconf":
 					{
 						p.writeSuccess();
-						p.outputStream.WriteLine("<html><body><h4>Добавлены конфигурации для IMEI :</h4>");
+						p.outputStream.WriteLine(@"
+<html>
+<head>" +
+"\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"/>\n" +
+@"</head>
+<body>
+<h4>Добавлены конфигурации для IMEI :</h4>
+");
 						UpdateSipGSMConfig(p);
-						p.outputStream.WriteLine("<h4>Конфигурация обновлена!</h4></body></html>");
+						p.outputStream.WriteLine(@"
+<h4>Конфигурация обновлена!</h4>
+</body>
+</html>
+");
 					}
 					break;
 				case "/settings":
@@ -138,8 +161,25 @@ namespace BalanceChecker
 
 				case "/check":
 					p.writeSuccess();
-					p.outputStream.WriteLine("<html><body><h3>Processing...</h3>");
+					p.outputStream.WriteLine(@"
+<html>
+<head>" +
+"\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"/>\n" +
+@"</head>
+<body>
+<h3>Processing...</h3>
+");
 					StartCheckBalance();
+					p.outputStream.WriteLine(@"
+</body>
+</html>
+");
+					break;
+				case "/favicon.ico" :
+					Stream fs = File.Open("html/favicon.ico", FileMode.Open);
+					p.writeSuccess("image/x-icon");
+					fs.CopyTo (p.outputStream.BaseStream);
+					p.outputStream.BaseStream.Flush ();
 					break;
 				default:
 					p.writeSuccess();
@@ -187,7 +227,7 @@ namespace BalanceChecker
 			
 
 
-			DeleteConfigFiles();
+			DeleteConfigFiles(p);
 
 			Thread.Sleep(5000);
 			i = 1;
@@ -226,7 +266,7 @@ WHERE imei = @imei
 							string port = reader[1].ToString();
 							Log.Write(string.Format("Добавление конфигурации для {0} :: p:{1}, id:{2}", imei, port, id));							
 							WriteConfigFile(imei, port, id);
-							p.outputStream.WriteLine(string.Format("<h5>{0} ::  {1}</h5>", i, imei));
+							p.outputStream.WriteLine(string.Format("<h5>Добавление конфигурации для {0} :: p:{1}, id:{2}<h5>", imei, port, id));
 						}
 					}
 					catch (NpgsqlException ex)
@@ -244,7 +284,7 @@ WHERE imei = @imei
 			StartService(Settings.Default.SipGsmServiceName, 1000);			
 		}
 
-		private void DeleteConfigFiles()
+		private void DeleteConfigFiles(HttpProcessor p)
 		{
 			Log.Write("Удаление старых файлов конфигурации");
 			int i = 0;
@@ -252,8 +292,16 @@ WHERE imei = @imei
 			{
 				foreach (string path in Directory.GetFiles(SipGSMPath))
 				{
-					File.Delete(path);
-					i++;
+					try
+					{
+						File.Delete(path);
+						i++;
+					}
+					catch (Exception e)
+					{
+						p.outputStream.WriteLine(string.Format("<h5>{0} ::  {1}</h5>", "Ошибка", e.Message));
+					}
+					
 				}
 			}
 			Log.Write(string.Format("Удалено файлов :: {0} ", i));
