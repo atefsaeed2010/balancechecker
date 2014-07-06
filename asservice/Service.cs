@@ -158,7 +158,13 @@ namespace BalanceChecker
 						p.Show("html/settings.html");
 					}
 					break;
-
+				case "/onoff":
+					{
+						var result = OnOff();
+						p.writeSuccess();
+						p.outputStream.WriteLine(result);
+					}
+					break;
 				case "/check":
 					p.writeSuccess();
 					p.outputStream.WriteLine(@"
@@ -186,6 +192,47 @@ namespace BalanceChecker
 					p.outputStream.WriteLine("<html><body><h5>Command \"" + p.http_url + "\" not founded</h5>");
 					break;
 			}
+		}
+
+
+		private string OnOff()
+		{
+			var serviceName = Settings.Default.SipGsmServiceName;
+			ServiceController service = new ServiceController(serviceName);
+			TimeSpan timeout = TimeSpan.FromMilliseconds(1000);
+
+			switch (service.Status)
+			{
+				case ServiceControllerStatus.Running:
+					try
+					{
+						service.Stop();
+						service.WaitForStatus(ServiceControllerStatus.Stopped, timeout);
+						Log.Write(serviceName + " service stopped!");
+						return "stopped";
+					}
+					catch
+					{
+						Log.Write("Error " + serviceName + " service stopping :( Exit...");
+					}
+					break;
+				case ServiceControllerStatus.Stopped:
+					try
+					{
+						service.Start();
+						service.WaitForStatus(ServiceControllerStatus.Stopped, timeout);
+						Log.Write(serviceName + " service running!");
+						return ("running");
+					}
+					catch
+					{
+						Log.Write("Error " + serviceName + " service running :( Exit...");
+					}
+					break;
+				default:
+					return ("error");
+			}
+			return ("error");
 		}
 
 
