@@ -165,6 +165,13 @@ namespace BalanceChecker
 						p.outputStream.WriteLine(result);
 					}
 					break;
+				case "/checksipgsm":
+					{
+						var result = CheckSipGsm();
+						p.writeSuccess();
+						p.outputStream.WriteLine(result);
+					}
+					break;
 				case "/check":
 					p.writeSuccess();
 					p.outputStream.WriteLine(@"
@@ -194,45 +201,59 @@ namespace BalanceChecker
 			}
 		}
 
+		private string CheckSipGsm()
+		{
+			var serviceName = Settings.Default.SipGsmServiceName;
+			ServiceController service = new ServiceController(serviceName);
+			TimeSpan timeout = TimeSpan.FromMilliseconds(3000);
+			return service.Status.ToString();
+		}
+
 
 		private string OnOff()
 		{
 			var serviceName = Settings.Default.SipGsmServiceName;
 			ServiceController service = new ServiceController(serviceName);
-			TimeSpan timeout = TimeSpan.FromMilliseconds(1000);
-
+			TimeSpan timeout = TimeSpan.FromMilliseconds(3000);
+			var result = "";
 			switch (service.Status)
 			{
 				case ServiceControllerStatus.Running:
 					try
 					{
-						service.Stop();
-						service.WaitForStatus(ServiceControllerStatus.Stopped, timeout);
-						Log.Write(serviceName + " service stopped!");
-						return "stopped";
+						service.Stop();						
 					}
 					catch
 					{
 						Log.Write("Error " + serviceName + " service stopping :( Exit...");
+					}
+					finally
+					{
+						service.WaitForStatus(ServiceControllerStatus.Stopped, timeout);
+						Log.Write(serviceName + " " + service.Status.ToString());
+						result = service.Status.ToString();
 					}
 					break;
 				case ServiceControllerStatus.Stopped:
 					try
 					{
 						service.Start();
-						service.WaitForStatus(ServiceControllerStatus.Stopped, timeout);
-						Log.Write(serviceName + " service running!");
-						return ("running");
 					}
 					catch
 					{
 						Log.Write("Error " + serviceName + " service running :( Exit...");
 					}
+					finally
+					{
+						service.WaitForStatus(ServiceControllerStatus.Running, timeout);
+						Log.Write(serviceName + " " + service.Status.ToString());
+						result = service.Status.ToString();
+					}
 					break;
 				default:
-					return ("error");
+					return ("");
 			}
-			return ("error");
+			return result;
 		}
 
 
