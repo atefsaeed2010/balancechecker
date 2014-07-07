@@ -129,5 +129,16 @@
   &lt;/gate&gt;
 &lt;/config&gt;</Value>
     </Setting>
+    <Setting Name="SipGsmStatusHtml" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;Status&lt;/title&gt;
+&lt;/head&gt;
+&lt;body bgcolor = {0}&gt;
+ &lt;h2 align="center"&gt;{1}&lt;/h2&gt;
+&lt;/body&gt;
+&lt;/html&gt;</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

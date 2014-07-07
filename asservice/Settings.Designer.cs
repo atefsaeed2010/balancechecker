@@ -302,5 +302,18 @@ namespace BalanceChecker {
                 this["ConfigTemplate"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("<html>\r\n<head>\r\n<meta charset=\"utf-8\">\r\n<title>Status</title>\r\n</head>\r\n<body bgc" +
+            "olor = {0}>\r\n <h2 align=\"center\">{1}</h2>\r\n</body>\r\n</html>")]
+        public string SipGsmStatusHtml {
+            get {
+                return ((string)(this["SipGsmStatusHtml"]));
+            }
+            set {
+                this["SipGsmStatusHtml"] = value;
+            }
+        }
     }
 }

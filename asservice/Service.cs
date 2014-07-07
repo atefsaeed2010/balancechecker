@@ -160,16 +160,20 @@ namespace BalanceChecker
 					break;
 				case "/onoff":
 					{
-						var result = OnOff();
+						OnOff();
+						var result = CheckSipGsm();
+						string htmlText = string.Format(Settings.Default.SipGsmStatusHtml, "Stopped" == result ? "#CC3300" : "#006600", result);
 						p.writeSuccess();
-						p.outputStream.WriteLine(result);
+						p.outputStream.WriteLine(htmlText);
+
 					}
 					break;
 				case "/checksipgsm":
 					{
 						var result = CheckSipGsm();
+						string htmlText = string.Format(Settings.Default.SipGsmStatusHtml, ("Stopped" == result ? "#CC3300" : "#006600"), result);
 						p.writeSuccess();
-						p.outputStream.WriteLine(result);
+						p.outputStream.WriteLine(htmlText);
 					}
 					break;
 				case "/check":
@@ -178,7 +182,8 @@ namespace BalanceChecker
 <html>
 <head>" +
 "\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"/>\n" +
-@"</head>
+@"<title>Checking Balance</title>
+</head>
 <body>
 <h3>Processing...</h3>
 ");
@@ -210,12 +215,11 @@ namespace BalanceChecker
 		}
 
 
-		private string OnOff()
+		private void OnOff()
 		{
 			var serviceName = Settings.Default.SipGsmServiceName;
 			ServiceController service = new ServiceController(serviceName);
-			TimeSpan timeout = TimeSpan.FromMilliseconds(3000);
-			var result = "";
+			TimeSpan timeout = TimeSpan.FromMilliseconds(1000);
 			switch (service.Status)
 			{
 				case ServiceControllerStatus.Running:
@@ -231,7 +235,6 @@ namespace BalanceChecker
 					{
 						service.WaitForStatus(ServiceControllerStatus.Stopped, timeout);
 						Log.Write(serviceName + " " + service.Status.ToString());
-						result = service.Status.ToString();
 					}
 					break;
 				case ServiceControllerStatus.Stopped:
@@ -247,13 +250,11 @@ namespace BalanceChecker
 					{
 						service.WaitForStatus(ServiceControllerStatus.Running, timeout);
 						Log.Write(serviceName + " " + service.Status.ToString());
-						result = service.Status.ToString();
 					}
 					break;
-				default:
-					return ("");
+				default :
+					break;
 			}
-			return result;
 		}
 
 
